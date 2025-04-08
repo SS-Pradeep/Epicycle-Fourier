@@ -65,8 +65,7 @@ function draw() {
   time += dt;
 
   if (time > TWO_PI) {
-    time = 0;
-    path = [];
+    time = TWO_PI;
   }
 
 }
